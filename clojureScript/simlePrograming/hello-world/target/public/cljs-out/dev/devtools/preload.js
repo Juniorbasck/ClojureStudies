@@ -1,4 +1,4 @@
-// Compiled by ClojureScript 1.11.54 {:optimizations :none}
+// Compiled by ClojureScript 1.11.54 {:target :nodejs, :nodejs-rt false, :optimizations :none}
 goog.provide('devtools.preload');
 goog.require('cljs.core');
 goog.require('devtools.prefs');

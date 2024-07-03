@@ -1,4 +1,4 @@
-// Compiled by ClojureScript 1.11.54 {:optimizations :none}
+// Compiled by ClojureScript 1.11.54 {:target :nodejs, :nodejs-rt false, :optimizations :none}
 goog.provide('devtools.defaults');
 goog.require('cljs.core');
 devtools.defaults.known_features = (new cljs.core.Delay((function (){

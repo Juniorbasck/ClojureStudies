@@ -1,4 +1,4 @@
-// Compiled by ClojureScript 1.11.54 {:optimizations :none}
+// Compiled by ClojureScript 1.11.54 {:target :nodejs, :nodejs-rt false, :optimizations :none}
 goog.provide('devtools.protocols');
 goog.require('cljs.core');
 
@@ -28,7 +28,7 @@ devtools.protocols.ISurrogate = function(){};
  */
 devtools.protocols.IFormat = function(){};
 
-var devtools$protocols$IFormat$_header$dyn_9319 = (function (value){
+var devtools$protocols$IFormat$_header$dyn_9325 = (function (value){
 var x__5390__auto__ = (((value == null))?null:value);
 var m__5391__auto__ = (devtools.protocols._header[goog.typeOf(x__5390__auto__)]);
 if((!((m__5391__auto__ == null)))){
@@ -46,11 +46,11 @@ devtools.protocols._header = (function devtools$protocols$_header(value){
 if((((!((value == null)))) && ((!((value.devtools$protocols$IFormat$_header$arity$1 == null)))))){
 return value.devtools$protocols$IFormat$_header$arity$1(value);
 } else {
-return devtools$protocols$IFormat$_header$dyn_9319.call(null,value);
+return devtools$protocols$IFormat$_header$dyn_9325.call(null,value);
 }
 });
 
-var devtools$protocols$IFormat$_has_body$dyn_9320 = (function (value){
+var devtools$protocols$IFormat$_has_body$dyn_9326 = (function (value){
 var x__5390__auto__ = (((value == null))?null:value);
 var m__5391__auto__ = (devtools.protocols._has_body[goog.typeOf(x__5390__auto__)]);
 if((!((m__5391__auto__ == null)))){
@@ -68,11 +68,11 @@ devtools.protocols._has_body = (function devtools$protocols$_has_body(value){
 if((((!((value == null)))) && ((!((value.devtools$protocols$IFormat$_has_body$arity$1 == null)))))){
 return value.devtools$protocols$IFormat$_has_body$arity$1(value);
 } else {
-return devtools$protocols$IFormat$_has_body$dyn_9320.call(null,value);
+return devtools$protocols$IFormat$_has_body$dyn_9326.call(null,value);
 }
 });
 
-var devtools$protocols$IFormat$_body$dyn_9321 = (function (value){
+var devtools$protocols$IFormat$_body$dyn_9327 = (function (value){
 var x__5390__auto__ = (((value == null))?null:value);
 var m__5391__auto__ = (devtools.protocols._body[goog.typeOf(x__5390__auto__)]);
 if((!((m__5391__auto__ == null)))){
@@ -90,7 +90,7 @@ devtools.protocols._body = (function devtools$protocols$_body(value){
 if((((!((value == null)))) && ((!((value.devtools$protocols$IFormat$_body$arity$1 == null)))))){
 return value.devtools$protocols$IFormat$_body$arity$1(value);
 } else {
-return devtools$protocols$IFormat$_body$dyn_9321.call(null,value);
+return devtools$protocols$IFormat$_body$dyn_9327.call(null,value);
 }
 });
 

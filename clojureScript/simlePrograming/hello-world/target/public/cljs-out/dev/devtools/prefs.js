@@ -1,4 +1,4 @@
-// Compiled by ClojureScript 1.11.54 {:optimizations :none}
+// Compiled by ClojureScript 1.11.54 {:target :nodejs, :nodejs-rt false, :optimizations :none}
 goog.provide('devtools.prefs');
 goog.require('cljs.core');
 goog.require('devtools.defaults');
@@ -36,14 +36,14 @@ return devtools.prefs.set_prefs_BANG_.call(null,cljs.core.merge.call(null,devtoo
 });
 devtools.prefs.update_pref_BANG_ = (function devtools$prefs$update_pref_BANG_(var_args){
 var args__5772__auto__ = [];
-var len__5766__auto___9941 = arguments.length;
-var i__5767__auto___9942 = (0);
+var len__5766__auto___10028 = arguments.length;
+var i__5767__auto___10029 = (0);
 while(true){
-if((i__5767__auto___9942 < len__5766__auto___9941)){
-args__5772__auto__.push((arguments[i__5767__auto___9942]));
+if((i__5767__auto___10029 < len__5766__auto___10028)){
+args__5772__auto__.push((arguments[i__5767__auto___10029]));
 
-var G__9943 = (i__5767__auto___9942 + (1));
-i__5767__auto___9942 = G__9943;
+var G__10030 = (i__5767__auto___10029 + (1));
+i__5767__auto___10029 = G__10030;
 continue;
 } else {
 }
@@ -62,13 +62,13 @@ return devtools.prefs.set_pref_BANG_.call(null,key,new_val);
 (devtools.prefs.update_pref_BANG_.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(devtools.prefs.update_pref_BANG_.cljs$lang$applyTo = (function (seq9938){
-var G__9939 = cljs.core.first.call(null,seq9938);
-var seq9938__$1 = cljs.core.next.call(null,seq9938);
-var G__9940 = cljs.core.first.call(null,seq9938__$1);
-var seq9938__$2 = cljs.core.next.call(null,seq9938__$1);
+(devtools.prefs.update_pref_BANG_.cljs$lang$applyTo = (function (seq10025){
+var G__10026 = cljs.core.first.call(null,seq10025);
+var seq10025__$1 = cljs.core.next.call(null,seq10025);
+var G__10027 = cljs.core.first.call(null,seq10025__$1);
+var seq10025__$2 = cljs.core.next.call(null,seq10025__$1);
 var self__5751__auto__ = this;
-return self__5751__auto__.cljs$core$IFn$_invoke$arity$variadic(G__9939,G__9940,seq9938__$2);
+return self__5751__auto__.cljs$core$IFn$_invoke$arity$variadic(G__10026,G__10027,seq10025__$2);
 }));
 
 

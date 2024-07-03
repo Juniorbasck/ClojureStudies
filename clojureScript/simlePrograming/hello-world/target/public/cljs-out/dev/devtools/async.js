@@ -1,4 +1,4 @@
-// Compiled by ClojureScript 1.11.54 {:optimizations :none}
+// Compiled by ClojureScript 1.11.54 {:target :nodejs, :nodejs-rt false, :optimizations :none}
 goog.provide('devtools.async');
 goog.require('cljs.core');
 goog.require('goog.async.nextTick');
@@ -31,12 +31,12 @@ throw e;
 }),(0));
 });
 devtools.async.promise_based_set_immediate = (function devtools$async$promise_based_set_immediate(callback){
-var o__9346__auto___12618 = (function (){var o__9346__auto___12618 = (function (){var o__9346__auto___12618 = Promise;
-return (o__9346__auto___12618["resolve"]).call(o__9346__auto___12618);
+var o__9352__auto___15071 = (function (){var o__9352__auto___15071 = (function (){var o__9352__auto___15071 = Promise;
+return (o__9352__auto___15071["resolve"]).call(o__9352__auto___15071);
 })();
-return (o__9346__auto___12618["then"]).call(o__9346__auto___12618,callback);
+return (o__9352__auto___15071["then"]).call(o__9352__auto___15071,callback);
 })();
-(o__9346__auto___12618["catch"]).call(o__9346__auto___12618,devtools.async.rethrow_outside_promise);
+(o__9352__auto___15071["catch"]).call(o__9352__auto___15071,devtools.async.rethrow_outside_promise);
 
 return null;
 });
@@ -57,14 +57,14 @@ return null;
 } else {
 (devtools.async._STAR_installed_STAR_ = true);
 
-var G__12619_12620 = Error;
-var target__9351__auto___12621 = G__12619_12620;
-if(cljs.core.truth_(target__9351__auto___12621)){
+var G__15072_15073 = Error;
+var target__9357__auto___15074 = G__15072_15073;
+if(cljs.core.truth_(target__9357__auto___15074)){
 } else {
-throw (new Error(["Assert failed: ",["unable to locate object path ",null," in ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__12619_12620)].join(''),"\n","target__9351__auto__"].join('')));
+throw (new Error(["Assert failed: ",["unable to locate object path ",null," in ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__15072_15073)].join(''),"\n","target__9357__auto__"].join('')));
 }
 
-(target__9351__auto___12621["stackTraceLimit"] = Infinity);
+(target__9357__auto___15074["stackTraceLimit"] = Infinity);
 
 
 devtools.async.install_async_set_immediate_BANG_.call(null);
