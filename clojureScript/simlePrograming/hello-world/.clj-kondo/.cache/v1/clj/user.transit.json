@@ -1,1 +1,1 @@
-["^ ","~$clojurescript-version",["^ ","~:row",1,"~:col",1,"~:name","^0","~:ns","~$user","~:top-ns",null],"~:filename","/home/adilson/.m2/repository/com/bhauman/figwheel-main/0.2.18/figwheel-main-0.2.18.jar:figwheel/main/react_native.clj"]
+["^ ","~$get-version",["^ ","~:fixed-arities",["~#set",[0]],"~:private",true,"~:ns","~$user","~:name","^0","~:type","~:fn","~:col",1,"~:top-ns",null,"~:row",1],"~:filename","/home/adilson/.m2/repository/com/taoensso/timbre/6.2.1/timbre-6.2.1.jar:taoensso/timbre/appenders/community/android_logcat.clj"]
