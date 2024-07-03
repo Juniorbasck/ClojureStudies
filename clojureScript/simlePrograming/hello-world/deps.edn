@@ -1,1 +1,10 @@
-{:deps {org.clojure/clojurescript {:mvn/version "1.11.54"}}}
+{:paths
+ ["src" "target"]
+ 
+ :deps 
+ {org.clojure/clojurescript {:mvn/version "1.11.54"}
+  com.bhauman/figwheel-main {:mvn/version "0.2.18"}}
+ 
+ :aliases 
+ {:dev 
+  {:main-opts ["--main" "figwheel.main" "--compile" "main.app" "--repl"]}}}
