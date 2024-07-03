@@ -1,9 +1,8 @@
 (ns server.core
   (:require [org.httpkit.server :refer [run-server]]
             [com.moclojer.adapters :as adapters]
-            [com.moclojer.server :as server]) 
+            [com.moclojer.server :as server])
   (:gen-class))
-
 
 (defn app [req]
   {:status  200
@@ -19,8 +18,6 @@
       :response {:status 200
                  :headers {:Content-Type "application/json"}
                  :body {:id 123}}}}]))
-
-
 
 (defn -main
   "start the server"
