@@ -1,5 +1,5 @@
 --main
 figwheel.main
---compile
-main.app
+--build
+dev
 --repl
